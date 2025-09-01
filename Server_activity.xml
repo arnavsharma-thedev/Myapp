@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<server>
+    <name>ArnavApp Local Server</name>
+    <port>8080</port>
+    <welcomeMessage>Hello Arnav 👑🔥 — your Android C++ Server is running!</welcomeMessage>
+</server>

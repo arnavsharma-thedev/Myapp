@@ -1,0 +1,9 @@
+#include <jni.h>
+#include <string>
+
+extern "C"
+JNIEXPORT jstring JNICALL
+Java_com_arnav_arnavapp_MainActivity_getNativeMessage(JNIEnv* env, jobject) {
+    std::string msg = "Hello from Arnav's C++ Super Power 🚀💻";
+    return env->NewStringUTF(msg.c_str());
+}
